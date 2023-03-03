@@ -1,0 +1,23 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "server": "server.js",
+  "scripts": {
+    "startMain": "node ./src/index.js",
+    "startServer": "node ./src/server.js",
+    "goLive" : "lt --port 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "server"
+  },
+  "author": "vikash",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "localtunnel": "^2.0.2",
+    "serve-static": "^1.15.0"
+  }
+}
